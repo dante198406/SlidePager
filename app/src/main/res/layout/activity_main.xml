@@ -5,20 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
+    <android.support.v4.view.ViewPager android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-      android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
 
-    <org.ninetripods.mq.slidepager.indicator.CirclePageIndicator
-        android:id="@+id/indicator"
+    <org.ninetripods.mq.slidepager.indicator.CirclePageIndicator android:id="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       android:layout_gravity="bottom"
-        android:layout_marginBottom="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="16dp"
         android:padding="3dp"
         android:visibility="gone"
         app:fillColor="#00acff"

@@ -12,7 +12,7 @@ import java.util.List;
  * Created by MQ on 2016/11/11.
  */
 
-class ViewPagerAdapter extends PagerAdapter {
+public class ViewPagerAdapter extends PagerAdapter {
     private List<GridView> gridList;
 
 

@@ -14,7 +14,7 @@ import java.util.List;
  * Created by MQ on 2016/11/11.
  */
 
-class GridViewAdapter extends BaseAdapter {
+public class GridViewAdapter extends BaseAdapter {
     private List<DataBean> dataList;
 
     GridViewAdapter(List<DataBean> datas, int page) {
@@ -57,7 +57,9 @@ class GridViewAdapter extends BaseAdapter {
         }
         DataBean bean = dataList.get(i);
         if (bean != null) {
-            mHolder.iv_img.setImageResource(R.mipmap.group_icon);
+            //mHolder.iv_img.setImageResource(R.mipmap.group_icon);
+            //mHolder.iv_img.setImageResource(bean.resId);
+            mHolder.iv_img.setImageDrawable(bean.iconDrawable);
             mHolder.tv_text.setText(bean.name);
         }
         return itemView;

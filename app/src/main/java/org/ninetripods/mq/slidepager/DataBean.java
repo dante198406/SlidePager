@@ -1,5 +1,7 @@
 package org.ninetripods.mq.slidepager;
 
+import android.graphics.drawable.Drawable;
+
 import java.io.Serializable;
 
 /**
@@ -7,5 +9,7 @@ import java.io.Serializable;
  */
 
 public class DataBean implements Serializable {
+    public int resId;
+    public Drawable iconDrawable;
     public String name;
 }
